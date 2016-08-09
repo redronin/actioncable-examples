@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 gem 'rails', '5.0.0'
 gem 'sprockets-rails', github: "rails/sprockets-rails"
 
-gem 'sqlite3'
+gem 'pg'
 gem 'redis'
 gem 'puma'
 
@@ -16,6 +16,7 @@ gem 'turbolinks', github: "rails/turbolinks"
 gem 'jbuilder', '~> 2.0'
 
 group :development, :test do
+  gem 'sqlite3'
   gem 'byebug'
 end
 

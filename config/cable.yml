@@ -6,3 +6,4 @@ local: &local
 
 development: *local
 test: *local
+production: <%= ENV['REDISCLOUD_URL'] %>
